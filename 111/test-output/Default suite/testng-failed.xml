@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Negativer_Register111Test">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- Negativer_Register111Test -->
+      <class name="AddToCartTest">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- AddToCartTest -->
+      <class name="positiveregTest">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- positiveregTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
